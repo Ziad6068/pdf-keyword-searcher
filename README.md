@@ -1,12 +1,26 @@
-# pdf-keyword-searcher
-A Python script to automatically search for **keywords inside multiple PDFs** and extract their surrounding context.
+# PDF Keyword Searcher
 
+A lightweight **Python tool to search for keywords in multiple PDF files** and extract their **context**.  
+This script is useful for researchers, students, and professionals who need to quickly **find words or phrases inside PDFs** without manually reading each page.
 
-## 🚀 Features
-- 🔎 Search for multiple keywords across all PDFs in a folder
-- 📄 Extracts one word before and after each keyword (context)
-- 📝 Saves results in a text file
-- ⚡ Fast batch processing
+---
+
+## 🔎 What This Tool Does
+- Search for **multiple keywords** across all PDFs in a folder
+- Extracts **one word before and one after** each keyword (contextual snippet)
+- Saves all matches in a **results.txt file**
+- Works with **any language text PDFs** (example: English, French, etc.)
+- Uses the **PyPDF2 library** for PDF text extraction
+
+---
+
+## 🚀 Example Use Cases
+- Researchers scanning large collections of academic PDFs for technical terms  
+- Students searching for definitions or concepts in lecture PDFs  
+- Companies scanning reports for compliance terms or sensitive words  
+- Anyone who wants a **batch PDF keyword search tool in Python**
+
+---
 
 ## 📦 Installation
 Clone the repository:
